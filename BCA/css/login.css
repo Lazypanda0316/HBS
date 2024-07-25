@@ -1,0 +1,101 @@
+ body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('../images/backgroun.jpg');
+            background-size: cover;
+            width: auto;
+            height: auto;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            color: white;
+        }
+
+        .form-body {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(1px);
+        }
+
+        .sub-text {
+            color: white;
+            font-size: 20px;
+        }
+
+        .sub-text a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .sub-text a:hover {
+            color: gold;
+            text-decoration: underline;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .input-text {
+            width: 98%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .login-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background-color: #45a049;
+        }
+
+        .error {
+            color: red;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+        }
+
+        .header img {
+            /* Set specific width and height */
+            width: 250px; /* Change this value to adjust width */
+            height: auto; /* Auto adjust height to maintain aspect ratio */
+
+            /* Or use percentage values for responsiveness */
+            /* width: 100%; */
+            /* height: auto; */
+        }
+
+        .header h1 {
+            color: black;
+        }
+    

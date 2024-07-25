@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+     body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+       margin-top: 100px;
+       background-image: url('../images/drak.jpg');
+       background-size: contain;
+       background-repeat: no-repeat;
+     }
+  
+     header h1 {
+       margin: 0;
+     }
+ 
+     .hero {
+       background-image: url('../images/hotel.jpg');
+       background-size: cover;
+       background-position: center;
+       color: #fff;
+       text-align: center;
+       padding: 100px 0;
+     }
+ 
+     .hero-content {
+       max-width: 800px;
+       margin: 0 auto;
+     }
+ 
+     .hero h2 {
+       font-size: 40px;
+       font-family: "Segoe-UI-Black";
+     }
+ 
+     .hero p {
+       font-size: 30px;
+       font-family: "Segoe-UI-Black";
+     }
+ 
+     .btn {
+       display: inline-block;
+       background-color: #E48F45;
+       color: #fff;
+       padding: 10px 20px;
+       text-decoration: none;
+       border-radius: 5px;
+       font-size: 18px;
+       transition: background-color 0.3s;
+     }
+ 
+     .btn:hover {
+       background-color: #d9793d;
+     }
+ 
+     .features {
+       text-align: center;
+       padding: 80px 20px;
+       background-color: #bebebe;
+     }
+ 
+     .features h3 {
+       font-size: 36px;
+       margin-bottom: 20px;
+       color: #333;
+     }
+ 
+     .features p {
+       font-size: 18px;
+       max-width: 800px;
+       margin: 0 auto;
+       color: #666;
+     }
+ 
+     footer {
+       background-color: #003C43;
+       color: #fff;
+       text-align: center;
+       padding: 20px;
+       bottom: 0;
+       width: 100%;
+     }
+ 
+     .hero-content h2 {
+       color: white; /* Change the color to your desired color */
+       padding: 10px;
+     }
+ 
+     .hero-content p {
+        font-size: 25px;
+       color: white; /* Change the color to your desired color */
+     }
+     
+     .paragraph {
+       text-align: center;
+       padding: 20px;
+       width: 100%;
+       max-width: 1100px; /* Set a maximum width to prevent content from crossing the margin */
+       height: 380px;
+       margin: 0 auto; /* Center the section horizontally */ 
+       color: #4D869C;   
+     }
+ 
+     .paragraph h1 {
+       font-family: 'Arial', sans-serif;
+       font-size: 48px;
+       color: #E48F45;
+       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+       animation: fadeIn 5s ease-in-out forwards;
+       opacity: 0;
+     }
+ 
+     @keyframes fadeIn {
+       from {
+         opacity: 0;
+       }
+       to {
+         opacity: 1;
+       }
+     }
+ 
+     .card {
+       width: 100%;
+       max-width: 400px;
+       margin: 0 auto 40px;
+       border-radius: 8px;
+       overflow: hidden;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+       transition: transform 0.3s, box-shadow 0.3s;
+     }
+ 
+     .card:hover {
+       transform: translateY(-10px);
+       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     }
+ 
+     .card img {
+       width: 100%; /* Adjust the width of the image */
+       height: auto;
+       display: block;
+     }
+ 
+     .card p {
+       padding: 20px;
+       background-color: #fff;
+       color: #333;
+       font-size: 18px;
+       margin: 0;
+       text-align: center;
+     }
